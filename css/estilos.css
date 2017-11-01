@@ -1,0 +1,80 @@
+/* -- HEADER -- */
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotronn{
+	background:#E6E6E6;
+	padding: 2px;
+	margin: 20px;
+	text-align: right;
+}
+
+.jumbotron{
+	background:#E6E6E6;
+	padding: 2px;
+	margin: 20px;
+	color: #F47920;
+	text-align: left;
+}
+
+.int {
+	margin-right: 40px;
+	padding-left: 20px;
+}
+
+.lect{ 
+	margin-right: 30px;
+	margin-left: 30px;
+	text-align: justify;
+}
+
+.center {
+	display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.mifoto {
+	display: block;
+	margin-right: 30px;
+	margin-left: 30px;
+	text-align: center;
+}
+/* -- POST -- */
+.main {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.post {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #999;
+}
+
+.post .post-title a {
+	color:#333;
+}
+
+.post .thumb {
+	margin-right:10px;
+	width:40%;
+}
+
+.post .thumb img {
+	width:100%;
+}
+
+.post .contenedor-botones {
+	width: 100%;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
